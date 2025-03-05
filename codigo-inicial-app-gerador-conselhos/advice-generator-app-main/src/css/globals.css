@@ -1,0 +1,21 @@
+/* Fontes externas */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+/* Variáveis de cores */
+:root {
+    --color-dark-bg: hsl(218, 23%, 16%);
+    --color-card-bg: hsl(217, 19%, 24%);
+    --color-accent: hsl(150, 100%, 66%);
+    --color-text: hsl(193, 38%, 86%);
+    --font-family: 'Manrope', serif;
+}
+
+/* Estilos globais */
+body {
+    background-color: var(--color-dark-bg);
+    font-family: var(--font-family);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
