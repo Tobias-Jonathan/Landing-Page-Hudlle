@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.info-perfil, .info-numeros-perfil{
+    display: flex;
+}
+.cartao{
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 9px;
+    height: 350px;
+}
+.info-perfil{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 75%;
+    width: 320px;
+}
+.info-perfil img {
+    border-radius: 50%;
+}
+.info-numeros-perfil{
+    height: 90px;
+    border-top: 1px solid rgb(184, 184, 184);
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+    
+}    
+h3, h4, p{
+    text-align: center;
+}
+span{
+color: var(--text-color);
+}
+p{
+    color: var(--text-color);
+}
+.favic{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
