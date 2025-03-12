@@ -32,7 +32,7 @@ Este projeto é uma landing page simples, mas que traz a essência da empresa e 
   <!-- Imagem 9x16 ao lado -->
   <div style="display: flex; flex-direction: column; align-items: center;">
     <h3>Design Mobile</h3>
-    <img style="border: 10px solid black;" src="./src/design-site/design-mobile.PNG" alt="Imagem 9x16" width="255">
+    <img style="border: 10px solid black;" src="./src/design-site/design-mobile.PNG" alt="Imagem 9x16" width="264">
   </div>
 </div>
 
