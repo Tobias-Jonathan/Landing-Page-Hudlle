@@ -42,8 +42,7 @@ Este projeto é uma landing page simples, mas que traz a essência da empresa e 
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
 📑 • **HTML5**  
-🎨 • **CSS3**  
-✅ • **JavaScript**  
+🎨 • **CSS3**   
 
 ---
 
