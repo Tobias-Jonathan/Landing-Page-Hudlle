@@ -1,10 +1,17 @@
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     body {
-        background-image: url('../images/bg-mobile.svg');
+        background-image: none;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+    }
+    .bg-mb{
+        display: block;
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        max-height: 44%;
     }
     .logo {
         width: 40%;
@@ -20,7 +27,7 @@
         padding: 0;
     }
     .panel h1 {
-        font-size: 2.6rem;
+        font-size: 2.2rem;
         padding: 0;
         line-height: 1.2;
     }

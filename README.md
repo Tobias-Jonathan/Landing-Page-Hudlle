@@ -21,19 +21,22 @@ Este projeto é uma landing page simples, mas que traz a essência da empresa e 
 ![Demonstração do Projeto](./src/images/logo.svg)
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-  <!-- Imagens 4x3 uma embaixo da outra -->
+  
   <div style="display: flex; flex-direction: column; align-items: center;">
     <h3>Design Desktop</h3>
-    <img style="border: 10px solid black;" src="./src/design-site/design-desktop.PNG" alt="Imagem 4x3-1" width="400">
+    <img style="border: 3px solid black;" src="./src/design-site/design-desktop.PNG" width="500">
     <h3>Active States</h3><br>
-    <img style="border: 10px solid black;" src="./src/design-site/active-states.PNG" alt="Imagem 4x3-2" width="400">
+    <img style="border: 3px solid black;" src="./src/design-site/active-states.PNG" width="500">
+  
   </div><br>
 
-  <!-- Imagem 9x16 ao lado -->
-  <div style="display: flex; flex-direction: column; align-items: center;">
-    <h3>Design Mobile</h3>
-    <img style="border: 10px solid black;" src="./src/design-site/design-mobile.PNG" alt="Imagem 9x16" width="264">
+  <div style="display: flex; flex-direction:column; align-items: center;">
+  <h3>Design Mobile</h3>
+    <img style="border: 3px solid black;" src="./src/design-site/design-mobile.PNG" width="200"><br><br>
+    <h4>Active States-icons</h4>
+  <img style="border: 3px solid black;" src="./src/design-site/active-states-icons.PNG" width="100">
   </div>
+
 </div>
 
 ---

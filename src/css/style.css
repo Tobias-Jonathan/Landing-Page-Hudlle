@@ -3,15 +3,14 @@ body {
     background-image: url('../images/bg-desktop.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    width: 100vw;
-    height: 100vh;
     margin: 0;
-    overflow: hidden;
     background-color: var(--Violet-bkg);
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.bg-mb{
+    display: none;
 }
 
 /* Header */
@@ -21,7 +20,7 @@ header {
 .logo {
     width: 12vw;
     position: relative;
-    left: 7vw;
+    left: 9vw;
     top: 4vh;
 }
 
@@ -37,20 +36,20 @@ header {
     width: 50vw;
 }
 .panel-info {
-    width: 34%;
-    font-size: 1.5rem;
+    width: 460px;
+    font-size: 1.6rem;
     line-height: 1.5;
     display: flex;
     flex-direction: column;
     gap: 10%;
     padding: 9vh 0;
 }
-.panel h1 {
+.panel-info h1 {
     font-family: var(--font-family-headings);
     font-size: 3.5rem;
     font-weight: 600;
     line-height: 1.2;
-    padding: 0 3vw 0 0;
+    max-width: 385px;
 }
 /* Button */
 .button {
@@ -63,7 +62,7 @@ header {
     font-weight: 500;
     text-decoration: none;
 }
-.button:active{
+.button:hover{
     cursor: pointer;
     background-color: var(--Soft-Magenta);
     color: #fff;
@@ -92,5 +91,9 @@ header {
     border-radius: 50%;
     outline: 2px solid var(--text-color);
     outline-offset: 1px;
+}
+.icon-bg:hover{
+    color: var(--Soft-Magenta);
+    outline: 3px solid var(--Soft-Magenta);
 }
 
